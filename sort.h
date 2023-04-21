@@ -20,14 +20,14 @@ typedef struct listint_s
 
 /**
  * enum bool - Enumeration of Boolean values
- * @true: Equals 1
- * @false: Equals 0
+ * @true: Equals 0
+ * @false: Equals 1
  */
 
 typedef enum bool
 {
-	true,
-	false = 0
+	true = 0,
+	false
 } bool;
 
 void print_array(const int *array, size_t size);
