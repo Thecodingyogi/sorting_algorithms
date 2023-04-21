@@ -26,7 +26,7 @@ typedef struct listint_s
 
 typedef enum bool
 {
-	true = 1,
+	true,
 	false = 0
 } bool;
 
