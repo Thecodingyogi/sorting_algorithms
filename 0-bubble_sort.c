@@ -2,6 +2,7 @@
 
 /**
  * bubble_sort - sorts an array of integers in ascending order
+ * @array: Array to sort
  * @size: Number of elements in an array
  */
 
@@ -29,7 +30,3 @@ void bubble_sort(int *array, size_t size)
 		bubble_sort(array, size);
 	}
 }
-
-
-
-		
